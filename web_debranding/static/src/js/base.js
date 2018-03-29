@@ -15,7 +15,7 @@ odoo.define('web_debranding.base', function(require) {
 
             self._rpc({
                 model: "ir.config_parameter",
-                method: 'get_debranding_parameters',
+                method: 'get_debranding_parameters'
             }, {
                 shadow: true
             }).then(function(result){

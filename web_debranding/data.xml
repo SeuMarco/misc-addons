@@ -6,9 +6,7 @@
             <field name="value">web_debranding</field>
         </record>
         <record id="base.main_partner" model="res.partner">
-            <field name="image"></field>
+            <field name="image"/>
         </record>
-
-
     </data>
 </odoo>
