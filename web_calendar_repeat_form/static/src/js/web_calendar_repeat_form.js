@@ -1,4 +1,4 @@
-openerp.web_calendar_repeat_form = function (session) {
+odoo.web_calendar_repeat_form = function (session) {
 
     session.web_calendar.CalendarView.include({
         view_loading: function(fv) {
@@ -47,7 +47,7 @@ openerp.web_calendar_repeat_form = function (session) {
                     self.prev_data = data;
                     return self.dataset.create(data, options).done(function(r) {
                     }).fail(function (r, event) {
-                       if (!r.data.message) { //else manage by openerp
+                       if (!r.data.message) { //else manage by odoo
                             throw new Error(r);
                        }
                     });
@@ -55,7 +55,7 @@ openerp.web_calendar_repeat_form = function (session) {
                 read_function: function(id, fields, options) {
                     return self.dataset.read_ids.apply(self.dataset, arguments).done(function() {
                     }).fail(function (r, event) {
-                        if (!r.data.message) { //else manage by openerp
+                        if (!r.data.message) { //else manage by odoo
                             throw new Error(r);
                         }
                     });

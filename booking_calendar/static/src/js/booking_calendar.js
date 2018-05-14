@@ -1,4 +1,4 @@
-openerp.booking_calendar = function (session) {
+odoo.booking_calendar = function (session) {
     var _t = session.web._t;
     var QWeb = session.web.qweb;
     var SLOT_START_DELAY_MINS = 15; //minutes

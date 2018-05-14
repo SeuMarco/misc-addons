@@ -1,9 +1,9 @@
 import pytz
 from pytz import timezone
-from openerp import models, fields, api
+from odoo import models, fields, api
 from datetime import datetime, date, timedelta
-from openerp.tools import DEFAULT_SERVER_DATETIME_FORMAT as DTF
-from openerp.exceptions import ValidationError
+from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT as DTF
+from odoo.exceptions import ValidationError
 
 
 def format_tz(datetime_str, tz, dtf):

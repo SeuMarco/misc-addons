@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data>
         <record id="mt_lead_next_action" model="mail.message.subtype">
             <field name="name">Next action changed</field>
@@ -14,4 +14,4 @@
             <field name="description">Next action date changed</field>
         </record>
     </data>
-</openerp>
+</odoo>

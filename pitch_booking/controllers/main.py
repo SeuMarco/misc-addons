@@ -1,8 +1,8 @@
-from openerp import SUPERUSER_ID
-from openerp.http import request
+from odoo import SUPERUSER_ID
+from odoo.http import request
 
 try:
-    from openerp.addons.website_booking_calendar.controllers.main import WebsiteBookingCalendar as Controller
+    from odoo.addons.website_booking_calendar.controllers.main import WebsiteBookingCalendar as Controller
 except ImportError:
     class Controller(object):
         pass

@@ -19,14 +19,14 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: web_gantt8
-#. openerp-web
+#. odoo-web
 #: code:addons/web_gantt8/static/src/xml/web_gantt.xml:10
 #, python-format
 msgid "Create"
 msgstr "შექმნა"
 
 #. module: web_gantt8
-#. openerp-web
+#. odoo-web
 #: code:addons/web_gantt8/static/src/js/gantt.js:16
 #, python-format
 msgid "Gantt"

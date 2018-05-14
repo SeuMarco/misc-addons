@@ -1,4 +1,4 @@
-openerp.web_calendar_quick_navigation = function (session) {
+odoo.web_calendar_quick_navigation = function (session) {
     var QWeb = session.web.qweb;
 
     session.web_calendar.CalendarView.include({

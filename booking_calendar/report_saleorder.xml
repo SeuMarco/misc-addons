@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data>
         <template id="booking_calendar_report_saleorder_document" inherit_id="sale.report_saleorder_document">
             <xpath expr="//table[@class='table table-condensed']/thead/tr" position="replace">
@@ -37,4 +37,4 @@
             </xpath>
         </template>
     </data>
-</openerp>
+</odoo>

@@ -1,4 +1,4 @@
-openerp.pitch_booking = function (session) {
+odoo.pitch_booking = function (session) {
 
     session.web_calendar.CalendarView.include({
         free_slot_click_data: function(event) {

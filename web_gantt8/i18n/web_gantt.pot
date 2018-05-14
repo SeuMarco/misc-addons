@@ -16,14 +16,14 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: web_gantt
-#. openerp-web
+#. odoo-web
 #: code:addons/web_gantt/static/src/xml/web_gantt.xml:10
 #, python-format
 msgid "Create"
 msgstr ""
 
 #. module: web_gantt
-#. openerp-web
+#. odoo-web
 #: code:addons/web_gantt/static/src/js/gantt.js:11
 #, python-format
 msgid "Gantt"

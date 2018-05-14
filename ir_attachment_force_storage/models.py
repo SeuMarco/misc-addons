@@ -1,7 +1,7 @@
-from openerp import api
-from openerp import models
-from openerp.exceptions import AccessError
-from openerp.tools.translate import _
+from odoo import api
+from odoo import models
+from odoo.exceptions import AccessError
+from odoo.tools.translate import _
 
 STORAGE_KEY = 'ir_attachment.location'
 

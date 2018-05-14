@@ -1,5 +1,5 @@
 
-from openerp import models, fields
+from odoo import models, fields
 
 
 class ProjectProjectAutostaging(models.Model):

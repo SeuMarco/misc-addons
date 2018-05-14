@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data>
         <!-- Cron job for automatically move -->
         <record forcecreate="True" id="ir_cron_autostaging"
@@ -16,4 +16,4 @@
             <field eval="'()'" name="args" />
         </record>
     </data>
-</openerp>
+</odoo>

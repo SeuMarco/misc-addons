@@ -1,6 +1,6 @@
-from openerp.addons.auth_signup_confirmation.controllers.auth_signup_confirmation import AuthConfirm
-from openerp import http
-from openerp.http import request
+from odoo.addons.auth_signup_confirmation.controllers.auth_signup_confirmation import AuthConfirm
+from odoo import http
+from odoo.http import request
 
 
 class AuthLead(AuthConfirm):

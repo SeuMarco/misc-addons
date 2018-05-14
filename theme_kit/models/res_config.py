@@ -1,7 +1,7 @@
 
 import hashlib
 
-from openerp import models, fields, api
+from odoo import models, fields, api
 
 CUSTOM_CSS_ARCH = '''<?xml version="1.0"?>
 <t t-name="theme_kit.custom_css">

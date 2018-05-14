@@ -22,7 +22,7 @@
 ##############################################################################
 
 -->
-<openerp>
+<odoo>
     <data>
         <record id="action_project_tags_project_tag_project_tags" model="ir.actions.act_window">
             <field name="name">Project Tags</field>
@@ -43,6 +43,6 @@
             />
 
     </data>
-</openerp>
+</odoo>
 <!-- vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4
      -->

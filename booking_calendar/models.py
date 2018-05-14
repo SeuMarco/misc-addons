@@ -3,15 +3,15 @@ from datetime import datetime, timedelta, time
 import pytz
 import logging
 
-from openerp import api, models, fields
-from openerp.tools import DEFAULT_SERVER_DATETIME_FORMAT as DTF
-from openerp.tools import DEFAULT_SERVER_DATE_FORMAT as DF
-from openerp.tools.translate import _
-from openerp.exceptions import ValidationError
+from odoo import api, models, fields
+from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT as DTF
+from odoo.tools import DEFAULT_SERVER_DATE_FORMAT as DF
+from odoo.tools.translate import _
+from odoo.exceptions import ValidationError
 
-from openerp.addons.resource.resource import seconds
-import openerp.addons.decimal_precision as dp
-from openerp import fields as old_api_fields, models
+from odoo.addons.resource.resource import seconds
+import odoo.addons.decimal_precision as dp
+from odoo import fields as old_api_fields, models
 
 _logger = logging.getLogger(__name__)
 

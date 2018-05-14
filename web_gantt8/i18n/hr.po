@@ -19,14 +19,14 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #. module: web_gantt8
-#. openerp-web
+#. odoo-web
 #: code:addons/web_gantt8/static/src/xml/web_gantt.xml:10
 #, python-format
 msgid "Create"
 msgstr "Kreiraj"
 
 #. module: web_gantt8
-#. openerp-web
+#. odoo-web
 #: code:addons/web_gantt8/static/src/js/gantt.js:16
 #, python-format
 msgid "Gantt"

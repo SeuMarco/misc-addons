@@ -103,7 +103,7 @@ Further debranding
 
 Auto-debrand new databases
 ==========================
-To automatically install this module for every new databases set **'auto_install': True** in __openerp__.py files of following modules:
+To automatically install this module for every new databases set **'auto_install': True** in __odoo__.py files of following modules:
 
 * web_debranding
 * ir_rule_protected

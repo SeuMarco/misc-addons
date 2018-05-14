@@ -1,4 +1,4 @@
-openerp.web_iframe = function (session) {
+odoo.web_iframe = function (session) {
     var _t = session.web._t,
        _lt = session.web._lt;
 

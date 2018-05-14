@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<openerp>
+<odoo>
     <data>
        <!-- override the automatically generated list view for sendandlog -->
        <record model="ir.ui.view" id="course_tree_view">
@@ -26,4 +26,4 @@
             action="action_view_smslog"/>
 
     </data>
-</openerp>
+</odoo>

@@ -1,4 +1,4 @@
-<openerp>
+<odoo>
     <data noupdate="1">
         <record id="email_registration" model="mail.template">
             <field name="name">email for registation</field>
@@ -13,4 +13,4 @@
             ]]></field>
         </record>
     </data>
-</openerp>
+</odoo>

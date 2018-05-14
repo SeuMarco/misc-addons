@@ -1,5 +1,5 @@
-from openerp import fields
-from openerp import models
+from odoo import fields
+from odoo import models
 
 
 class HrApplicant(models.Model):

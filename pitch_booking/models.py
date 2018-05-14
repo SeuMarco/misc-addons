@@ -1,13 +1,13 @@
 from datetime import datetime, timedelta
 import pytz
 import logging
-from openerp import api
-from openerp import fields
-from openerp import models
-from openerp.tools import DEFAULT_SERVER_DATETIME_FORMAT as DTF
-from openerp.tools import DEFAULT_SERVER_DATE_FORMAT as DF
-from openerp.addons.booking_calendar.models import SLOT_START_DELAY_MINS, SLOT_DURATION_MINS
-from openerp.addons.base.res.res_partner import _tz_get
+from odoo import api
+from odoo import fields
+from odoo import models
+from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT as DTF
+from odoo.tools import DEFAULT_SERVER_DATE_FORMAT as DF
+from odoo.addons.booking_calendar.models import SLOT_START_DELAY_MINS, SLOT_DURATION_MINS
+from odoo.addons.base.res.res_partner import _tz_get
 
 _logger = logging.getLogger(__name__)
 

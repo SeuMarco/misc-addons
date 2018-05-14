@@ -1,6 +1,6 @@
 
 from . import controllers
-from openerp import api, SUPERUSER_ID
+from odoo import api, SUPERUSER_ID
 
 
 def init_auth(cr, registry):

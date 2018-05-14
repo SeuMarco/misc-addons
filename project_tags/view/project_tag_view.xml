@@ -24,7 +24,7 @@
 <!-- project_tags.project_tag -->
 <!-- project_tags.project_tag -->
 <!-- project_tags.project_tag -->
-<openerp>
+<odoo>
     <data>
 
         <!-- SEARCH VIEW -->
@@ -77,6 +77,6 @@
         </record>
 
     </data>
-</openerp>
+</odoo>
 <!-- vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4
      -->

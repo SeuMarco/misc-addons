@@ -1,5 +1,5 @@
-from openerp import api
-from openerp import models
+from odoo import api
+from odoo import models
 
 
 class HrEmployee(models.Model):

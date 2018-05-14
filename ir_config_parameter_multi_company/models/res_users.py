@@ -28,7 +28,7 @@ class Users(models.Model):
             return False
         data_fields = self.env.cr.fetchone()
         # generate hmac key
-        key = (u'%s' % (data_fields,)).encode('utf-8')
+        key = ('%s' % (data_fields,)).encode('utf-8')
         # hmac the session id
         data = sid.encode('utf-8')
         h = hmac.new(key, data, sha256)

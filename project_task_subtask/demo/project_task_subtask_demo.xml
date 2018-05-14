@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
   <data noupdate="1">
     <record id="project_task_subtask_1" model="project.task.subtask">
       <field name="name">test subtask</field>
@@ -7,4 +7,4 @@
       <field name="task_id" eval="ref('project.project_task_1')"/>
     </record>
   </data>
-</openerp>
+</odoo>

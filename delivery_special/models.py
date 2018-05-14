@@ -1,6 +1,6 @@
-from openerp import models, fields
-from openerp.tools.translate import _
-from openerp.tools import safe_eval
+from odoo import models, fields
+from odoo.tools.translate import _
+from odoo.tools import safe_eval
 
 
 class DeliveryGrid(models.Model):

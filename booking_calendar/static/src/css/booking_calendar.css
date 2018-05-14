@@ -1,4 +1,4 @@
-.openerp .oe_list.oe_list_editable.oe_editing .oe_edition .oe_list_field_cell .oe_button_calendar, .openerp .oe_list.oe_list_editable.oe_editing .oe_edition .oe_list_field_cell .oe_button_calendar * {
+.odoo .oe_list.oe_list_editable.oe_editing .oe_edition .oe_list_field_cell .oe_button_calendar, .odoo .oe_list.oe_list_editable.oe_editing .oe_edition .oe_list_field_cell .oe_button_calendar * {
   visibility: visible;
 }
 
@@ -1127,10 +1127,10 @@ be a descendant of the grid when it is being dragged.
     cursor: pointer;
 }
 
-.openerp .oe_calendar_table .fc-event-container .cal_opacity {
+.odoo .oe_calendar_table .fc-event-container .cal_opacity {
     opacity: 0.2;
 }
-.openerp .oe_calendar_table .cal_opacity:hover {
+.odoo .oe_calendar_table .cal_opacity:hover {
     opacity: 1;
 }
 /*.fc-view-month .free_slot {

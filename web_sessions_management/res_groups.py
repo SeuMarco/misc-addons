@@ -1,4 +1,3 @@
-# -*- encoding: utf-8 -*-
 #
 #
 #    OpenERP, Open Source Management Solution
@@ -22,8 +21,8 @@
 #
 #
 
-from openerp import fields
-from openerp import models
+from odoo import fields
+from odoo import models
 
 
 class ResGroups(models.Model):

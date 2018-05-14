@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data>
 
         <template id="assets_backend" name="custom booking calendar assets" inherit_id="web.assets_backend">
@@ -232,4 +232,4 @@
 
 
     </data>
-</openerp>
+</odoo>

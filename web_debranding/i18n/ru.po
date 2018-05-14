@@ -19,14 +19,14 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #. module: web_debranding
-#. openerp-web
+#. odoo-web
 #: code:addons/web_debranding/static/src/xml/web.xml:24
 #, python-format
 msgid "(with assets)"
 msgstr ""
 
 #. module: web_debranding
-#. openerp-web
+#. odoo-web
 #: code:addons/web_debranding/static/src/xml/web.xml:23
 #: code:addons/web_debranding/static/src/xml/web.xml:24
 #, python-format
@@ -34,7 +34,7 @@ msgid "Developer mode"
 msgstr "Режим разработчика"
 
 #. module: web_debranding
-#. openerp-web
+#. odoo-web
 #: code:addons/web_debranding/static/src/js/user_menu.js:14
 #: code:addons/web_debranding/static/src/js/user_menu.js:20
 #, python-format
@@ -54,14 +54,14 @@ msgid "Software"
 msgstr ""
 
 #. module: web_debranding
-#. openerp-web
+#. odoo-web
 #: code:addons/web_debranding/static/src/xml/web.xml:5
 #, python-format
 msgid "Your permission is required to"
 msgstr ""
 
 #. module: web_debranding
-#. openerp-web
+#. odoo-web
 #: code:addons/web_debranding/static/src/xml/web.xml:6
 #, python-format
 msgid "enable desktop notifications"

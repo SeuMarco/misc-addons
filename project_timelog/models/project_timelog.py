@@ -1,9 +1,9 @@
 import datetime
-from openerp import models, fields, api
-from openerp.exceptions import Warning as UserError
-from openerp.tools.translate import _
-from openerp.addons.bus.models.bus_presence import AWAY_TIMER
-from openerp.addons.bus.models.bus_presence import DISCONNECTION_TIMER
+from odoo import models, fields, api
+from odoo.exceptions import Warning as UserError
+from odoo.tools.translate import _
+from odoo.addons.bus.models.bus_presence import AWAY_TIMER
+from odoo.addons.bus.models.bus_presence import DISCONNECTION_TIMER
 
 
 class ProjectTimelog(models.Model):
@@ -188,7 +188,7 @@ class Users(models.Model):
     im_status = fields.Char(search='_search_im_status')
 
     def _search_im_status(self, operator, value):
-        ids = map(lambda x: x.id, self.env["res.users"].search([]))
+        ids = [x.id for x in self.env["res.users"].search([])]
         value_ids = []
         self.env.cr.execute("""
             SELECT

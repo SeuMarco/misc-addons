@@ -1,7 +1,7 @@
 import werkzeug
-from openerp.addons.auth_signup.controllers.main import AuthSignupHome
-from openerp import http
-from openerp.http import request
+from odoo.addons.auth_signup.controllers.main import AuthSignupHome
+from odoo import http
+from odoo.http import request
 
 
 class SignupDenied(Exception):

@@ -1,4 +1,3 @@
-# -*- encoding: utf-8 -*-
 #
 #
 #    OpenERP, Open Source Management Solution
@@ -23,11 +22,11 @@
 #
 
 import logging
-from openerp import api, models, fields
+from odoo import api, models, fields
 from datetime import datetime
 from datetime import timedelta
-from openerp.tools import DEFAULT_SERVER_DATETIME_FORMAT
-from openerp.http import root
+from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT
+from odoo.http import root
 
 _logger = logging.getLogger(__name__)
 

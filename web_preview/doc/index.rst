@@ -12,7 +12,7 @@ Odoo parameters
 
 * Add ``ir_attachment_url`` to ``--load`` parameters, e.g.::
 
-    ./openerp-server --load web,ir_attachment_url --config=/path/to/openerp-server.conf
+    ./odoo-server --load web,ir_attachment_url --config=/path/to/odoo-server.conf
 
 Usage
 =====
