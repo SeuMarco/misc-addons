@@ -2,10 +2,25 @@
     Copyright 2017 ArtyomLosev <https://github.com/ArtyomLosev>
     License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html). */
 odoo.define('web_debranding.base', function(require) {
-    var WebClient = require('web.WebClient');
-    var core = require('web.core');
+    var WebClient = require('web.WebClient'),
+    	AbstractField = require('web.AbstractField');
+    	
+    AbstractField.include({
+    	setIDForLabel: function(id){
+    		if (this.getFocusableElement()){
+    			this.getFocusableElement().attr('id',id);
+    		}
+    	},
+    	isFocusable: function(){
+    		var $focusable = this.getFocusableElement(),
+    			is_focusable = false;
+    		if ($focusable){
+    			is_focusable = $focusable.length && $focusable.is(':visible');
+    		}
+    		return is_focusable;
+    	}
+    }); 
 
-    var _t = core._t;
 
     WebClient.include({
         init: function(parent) {
